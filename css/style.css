@@ -776,6 +776,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: auto;
+    width: auto;
 }
 
 .portfolio-row {
@@ -855,11 +857,12 @@ h4 {
 
 
 .bg-banniere {
-    background-image: url("../img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.webp");
+    background-size:cover;
 }
 
 @media (max-width: 1024px) {
